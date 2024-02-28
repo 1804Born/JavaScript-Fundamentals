@@ -19,10 +19,10 @@ promise
   console.log(name);
   return name.length;
  })
- .then((namelength) => {
+.then((namelength) => {
   console.log(namelength);
  })
- .catch((error) => {
+.catch((error) => {
   console.log(error);
   return 123;
  })
